@@ -30,7 +30,7 @@ class DetailedActivity : AppCompatActivity() {
         var totalMorningDegrees = 0
         var totalAfternoonDegrees = 0
         var dayIndex = 0
-
+//implement while loop and store data into arrays
         while (dayIndex < daysData.size) {
             val morningTime = daysData[dayIndex][0]
             val afternoonTime = daysData[dayIndex][1]
@@ -42,7 +42,7 @@ class DetailedActivity : AppCompatActivity() {
             stringBuilder.append("  Afternoon Weather: $afternoonTime Degrees\n\n")
             dayIndex++
         }
-
+// calcullate the avarage temperatures
         val averageMorningTime = totalMorningDegrees / daysData.size
         val averageAfternoonTime = totalAfternoonDegrees / daysData.size
 
