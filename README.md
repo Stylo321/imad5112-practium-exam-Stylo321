@@ -1,3 +1,5 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/nGuRs7wl)
+
 PSUDIOCODE FOR MY weather app
 start
 Declare variables
@@ -65,3 +67,13 @@ Declare onCreate
         screenWeatherDisplay.text = stringBuilder.toString()
 
 End
+
+![image](https://github.com/IIEVCPMB/imad5112-practicum-exam-Stylo321/assets/165194260/dc2ce275-af97-4779-b601-84649669568f)
+TESTING IS DONE AND WORKS.
+![Screenshot (9)](https://github.com/IIEVCPMB/imad5112-practicum-exam-Stylo321/assets/165194260/6b9a7c36-3ade-4d05-9812-a3b5884bb68d)
+splash SCREEN...PRESS"next"
+![Screenshot (11)](https://github.com/IIEVCPMB/imad5112-practicum-exam-Stylo321/assets/165194260/e5fc71bf-f316-46c5-93c8-c28effc4c1aa)
+aCTIVITY MAIN PRESS "SUBMIT" 
+
+![Screenshot (12)](https://github.com/IIEVCPMB/imad5112-practicum-exam-Stylo321/assets/165194260/7655b1cc-ab99-4707-9d2a-8be78e9f48b6)
+DetailedView this activity calculates the average and collects all the data and stroes them in parrallel arrays and also uses loops.
