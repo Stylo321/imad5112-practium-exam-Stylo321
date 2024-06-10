@@ -14,6 +14,8 @@ import java.io.IOException
 
 class MainActivity : AppCompatActivity() {
 
+    
+
     private lateinit var music: Button
     private var mediaPlayer: MediaPlayer? = null
 
@@ -27,6 +29,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        //Declare and initialize variables
 
         val clear = findViewById<Button>(R.id.clear)
         clear.setOnClickListener {
@@ -50,7 +53,7 @@ class MainActivity : AppCompatActivity() {
             daysData[currentDay][0] = morningTime
             daysData[currentDay][1] = afternoonTime
             currentDay++
-
+//implement if/else statement
             if (currentDay >= daysData.size) {
                 val intent = Intent(this, DetailedActivity::class.java).apply {
                     putExtra("DAYS_DATA", daysData)
@@ -62,7 +65,7 @@ class MainActivity : AppCompatActivity() {
             }
         }
     }
-
+// code to play music
     private fun playAudio() {
         fun playAudio() {
             val audiourl = "https://archive.org/download/ModjoLadyHearMeTonight/Modjo%20-%20Lady%20%28Hear%20Me%20Tonight%29.mp3"
